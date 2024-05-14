@@ -28,3 +28,12 @@ h1 {
 .row {
     display: flex;
 }
+
+@media (max-width: 767px) {
+    .header {
+        padding-left: 4%;
+        padding-right: 2%;
+        gap: 14%;
+        margin: 0;
+    }
+}
