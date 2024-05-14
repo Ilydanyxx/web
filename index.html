@@ -28,17 +28,15 @@
     </script>
  <script>
 $(document).ready(function() {
-    // Відкриття модального вікна при натисканні кнопки з атрибутом data-modal-open
+  
     $(document).on('click', '[data-modal-open]', function() {
         $('.feedback').removeClass('is-hidden');
     });
 
-    // Закриття модального вікна при натисканні кнопки з атрибутом data-modal-close
     $(document).on('click', '[data-modal-close]', function() {
         $('.feedback').addClass('is-hidden');
     });
 
-    // Закриття модального вікна при кліку на затемнений фон (backdrop)
     $('.backdrop').click(function() {
         $('.feedback').addClass('is-hidden');
     });
