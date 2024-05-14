@@ -1,0 +1,59 @@
+
+.catalog-item {
+    color: grey;
+    font-weight: 800;
+}
+.pre-item {
+  font-weight: 300;
+}
+.pre-list {
+    list-style: disc;
+    padding-left: 16px;
+}
+.car-item {
+    height: 320px;
+    width: 240px;
+    background-color: rgb(203, 201, 201);
+    padding: 2%;
+}
+.car-text {
+    color: gray;
+
+}
+.car-price {
+    font-weight: 900;
+    font-size: xx-large;
+}
+.car-image {
+    height: 180px;
+    width: 220px;
+}
+.content {
+    display: flex;
+    gap: 16px;
+}
+.car-list {
+    display: flex;
+    column-gap: 4%;
+    row-gap: 24px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.catalog-list {
+    padding: 16px;
+}
+.hidden {
+    visibility: hidden;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.active-button {
+    background: #404bbf;
+    color: white;
+}

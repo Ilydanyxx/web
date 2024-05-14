@@ -1,0 +1,16 @@
+.menu {
+    background-color: black;
+  
+}
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}

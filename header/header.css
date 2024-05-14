@@ -1,0 +1,30 @@
+.header-image {
+    width: 88px;
+    height: 88px;
+}
+.header {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 5%;
+    gap: 25%;
+    margin: 0;
+}
+h1 {
+    width: 64px;
+    height: 24px;
+}
+.column {
+    font-size: small;
+}
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+.header-button {
+    border-style: none;
+    background-color: white;
+    font-weight: 600;
+}
+.row {
+    display: flex;
+}

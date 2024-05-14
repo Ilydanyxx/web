@@ -1,1 +1,14 @@
 @import url('./feedback/feedback.css');
+@import url('./content/content.css');
+@import url('./footer/footer.css');
+@import url('./header/header.css');
+@import url('./menu/menu.css');
+@import url('./slider/slider.css');
+
+.list {
+    list-style: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+}

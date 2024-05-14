@@ -1,10 +1,63 @@
-<section class="feedback">
-    <h2>Зворотній зв'язок</h2>
-    <ul>
-        <li><label for=""><span>Ваше ім'я *</span><input type="text" name="" id=""><span></span></label></li>
-        <li><label for=""><span>Телефон *</span><span><input type="tel" name="" id=""></span></label></li>
-        <li><label for=""><span>Email *</span><span><input type="email" name="" id=""></span></label></li>
-        <li><label for=""><span>Повідомлення</span><span><input type="text" name="" id=""></span></label></li>
-        <button type="button">Надіслати</button>
-    </ul>
+<section class="feedback backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+            
+          </button>
+        <h2 class="modal-name">Зворотній зв'язок</h2>
+        <form name="singup-form" autocomplete="on" action="">
+            <div class="center">
+              <div class="input-height">
+                <label class="modal-label" for="name">Ваше ім'я *</label>
+                <div class="input-wrap">
+                  <input
+                    class="modal-input"
+                    id="name"
+                    name="user-name"
+                    type="text"
+                    autofocus
+                  />
+                
+                </div>
+              </div>
+              <div class="input-height">
+                <label class="modal-label" for="tel">Телефон *</label>
+                <div class="input-wrap">
+                  <input
+                    class="modal-input"
+                    id="tel"
+                    name="user-tel"
+                    type="tel"
+                    autofocus
+                  />
+                
+                </div>
+              </div>
+              <div class="input-height">
+                <label class="modal-label" for="email">Email *</label>
+                <div class="input-wrap">
+                  <input
+                    class="modal-input"
+                    id="email"
+                    name="user-email"
+                    type="email"
+                    autofocus
+                  />
+                 
+                </div>
+              </div>
+              <div class="comment-height">
+                <label for="comment" class="modal-label">Повідомлення</label>
+                <textarea
+                  class="modal-textarea"
+                  name="user-comment"
+                  id="comment"
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+            </div>
+            <button class="modal-submit" type="submit">Надіслати</button>
+          </div>
+        </form>
+    </div>
+   
 </section>

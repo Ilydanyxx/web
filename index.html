@@ -10,17 +10,93 @@
         $(function(){
             $("#header").load("header/header.html"); 
         });
-    </script>
-    <script>
         $(function(){
             $("#feedback").load("feedback/feedback.html"); 
         });
+        $(function(){
+            $("#content").load("content/content.html"); 
+        });
+        $(function(){
+            $("#footer").load("footer/footer.html"); 
+        });
+        $(function(){
+            $("#menu").load("/menu/menu.html"); 
+        });
+        $(function(){
+            $("#slider").load("slider/slider.html"); 
+        });
     </script>
+ <script>
+$(document).ready(function() {
+    // Відкриття модального вікна при натисканні кнопки з атрибутом data-modal-open
+    $(document).on('click', '[data-modal-open]', function() {
+        $('.feedback').removeClass('is-hidden');
+    });
+
+    // Закриття модального вікна при натисканні кнопки з атрибутом data-modal-close
+    $(document).on('click', '[data-modal-close]', function() {
+        $('.feedback').addClass('is-hidden');
+    });
+
+    // Закриття модального вікна при кліку на затемнений фон (backdrop)
+    $('.backdrop').click(function() {
+        $('.feedback').addClass('is-hidden');
+    });
+});
+$(document).ready(function() {
+    $(document).on('click', '[first]', function() {
+        $('.car-list').addClass('hidden');
+    });
+    $(document).on('click', '[first]', function() {
+        $('.no-active').removeClass('active-button');
+    });
+    $(document).on('click', '[first]', function() {
+        $('.first-page').removeClass('hidden');
+    });
+    $(document).on('click', '[first]', function() {
+        $('.first-button').addClass('active-button');
+    });
+});
+$(document).ready(function() {
+    $(document).on('click', '[second]', function() {
+        $('.car-list').addClass('hidden');
+    });
+    $(document).on('click', '[second]', function() {
+        $('.no-active').removeClass('active-button');
+    });
+    $(document).on('click', '[second]', function() {
+        $('.second-page').removeClass('hidden');
+    });
+    $(document).on('click', '[second]', function() {
+        $('.second-button').addClass('active-button');
+    });
+ 
+});
+
+$(document).ready(function() {
+    $(document).on('click', '[third]', function() {
+        $('.car-list').addClass('hidden');
+    });
+    $(document).on('click', '[third]', function() {
+        $('.no-active').removeClass('active-button');
+    });
+    $(document).on('click', '[third]', function() {
+        $('.third-page').removeClass('hidden');
+    });
+    $(document).on('click', '[third]', function() {
+        $('.third-button').addClass('active-button');
+    });
+});
+ </script>
 </head>
 <body>
     <header id="header"></header>
     <main>
         <section style="display: flex; justify-content: center; align-items: center;" id="feedback"></section>
+<section id="menu" ></section>
+<section id="slider"></section>
+<section id="content"></section>
     </main>
+    <footer id="footer"></footer>
 </body>
 </html>

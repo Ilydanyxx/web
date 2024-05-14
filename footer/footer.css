@@ -1,0 +1,15 @@
+.footer {
+    height: 240px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.footer-list-first {
+    padding: 0;
+    margin: 0;
+}
+.footer-list-first-text {
+    padding: 0;
+    margin: 0;
+}
