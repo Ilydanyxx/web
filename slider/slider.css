@@ -2,7 +2,7 @@
 .slider-wrap {
     max-width: 2000px;
     position: relative;
-    height: 410px;
+    height: 480px;
     overflow: hidden;
 }
 
@@ -34,9 +34,9 @@
 }
 
 .slider-wrap img:nth-child(1) {
-    animation: changeSlide 5s infinite;
+    animation: changeSlide 10s infinite;
 }
 
 .slider-wrap img:nth-child(2) {
-    animation: changeSlide 5s 2.5s infinite; /* Додано затримку 2.5 секунди перед початком анімації другого слайда */
+    animation: changeSlide 10s 5s infinite; /* Додано затримку 2.5 секунди перед початком анімації другого слайда */
 }
